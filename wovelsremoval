@@ -1,0 +1,7 @@
+str=input("enter the word or statement")
+wovel_removal="aeiouAEIOU"
+print("Your statement or word is ",str)
+for char in str:
+ if char in wovel_removal:
+   str=str.replace(char,"")
+print("output word or statement without wovels ",str)
